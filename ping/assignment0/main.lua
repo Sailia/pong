@@ -244,15 +244,19 @@ function love.update(dt)
 
 
     
-    -- player 2
-    if ball:collides(player1) then
-        ball.collided = true
+    -- -- player 2
+    -- if ball:collides(player1) then
+    --     ball.collided = true
 
-    elseif ball:collides(player2) then
-        ball.collided = false
-    end
+    -- elseif ball:collides(player2) then
+    --     ball.collided = false
+    -- end
 
-    if ball.collided == true then 
+    -- if ball.collided == true then 
+    --     player2.dy = ball.dy 
+    -- end
+
+    if true then 
         player2.dy = ball.dy 
     end
 
